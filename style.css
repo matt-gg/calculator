@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr)
+}
+
+.btn {
+    height: 50px;
+    width: 60px;
+    margin: 2px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightblue;
+
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+}
