@@ -15,13 +15,7 @@
     align-items: center;
 }
 
-.result {
-    height: 50px;
-    width: 300px;
-    border: 1px solid black;
-}
-
-.calculation {
+.screen {
     height: 50px;
     width: 300px;
     border: 1px solid black;
@@ -29,7 +23,7 @@
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr)
 }
 
